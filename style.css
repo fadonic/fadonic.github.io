@@ -1,0 +1,50 @@
+html, body {
+  margin: auto
+}
+
+#test {
+  background-image: url(/img/test.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -110px;
+}
+
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+.input-group-prepend {
+  width: 100%;
+}
+
+.input-group-prepend input, .input-group-prepend textarea {
+  color: #fff!important
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+
+#main-header .port-item:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.card {
+  border-radius: 0
+}
+
+.bg-black {
+  color: #fff;
+  background: #000;
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3.1em !important;
+  }
+  .container {
+    width: 75%!important;
+  }
+}
