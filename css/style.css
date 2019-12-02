@@ -3,10 +3,28 @@ html, body {
 }
 
 #test {
-  background-image: url(/img/test.png);
+  background-image: url(/img/fadonic.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 200, 0, 0.9);
+}
+
+#test2 {
+  background-image: url(/img/raven.PNG);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: -110px;
+  background-position: center;
+}
+
+#test:hover{
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 #main-header img {
@@ -42,7 +60,7 @@ html, body {
 
 @media (min-width: 1199px) {
   .port-item {
-    padding: 3.1em !important;
+    padding: 1em !important;
   }
   .container {
     width: 75%!important;
