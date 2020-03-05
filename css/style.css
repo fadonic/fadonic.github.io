@@ -9,7 +9,7 @@ html, body {
   background-position: center;
 }
 
-.overlay{
+.overlay {
   width: 100%;
   height: 100%;
   background: rgba(255, 200, 0, 0.9);
@@ -22,7 +22,7 @@ html, body {
   background-position: center;
 }
 
-#test:hover{
+#test:hover {
   cursor: pointer;
   opacity: 0.8;
 }
@@ -64,5 +64,14 @@ html, body {
   }
   .container {
     width: 75%!important;
+  }
+}
+
+@media (max-width: 563px) {
+  .p-4 {
+    padding: 1.5rem 0px!important;
+  }
+  #position {
+    padding: 1.5rem !important;
   }
 }

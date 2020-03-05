@@ -48,3 +48,12 @@ html, body {
     width: 75%!important;
   }
 }
+
+@media (max-width: 563px) {
+  .p-4 {
+    padding: 1.5rem 0px!important;
+  }
+  #position {
+    padding: 1.5rem !important;
+  }
+}
